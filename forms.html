@@ -4,27 +4,51 @@
     <title>Forms Page</title>
   </head>
   <body>
-    <h1>Your forms title will go here</h1>
+    <h1>McDonalds's Order</h1>
     <form action="#" method="post">
       <label for="name">Name:</label>
         <input type="text" id="name" name="name">
+    
     <br>
-      <label for"message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+      <label>Choose a sandwich:</label>
     <br>
-      <label>Choose a color:</label>
-    <br>
-      <input type="radio" id="red" name="color" value="red">
-        <label for="red">Red</label><br>
-      <input type="radio" id="red" name="color" value="blue">
-        <label for="red">Blue</label><br>
-      <input type="radio" id="red" name="color" value="yellow">
-        <label for="red">Yellow</label><br>
+      <input type="radio" id="qp" name="color" value="qp">
+        <label for="qp">Quarter Poundr w/ cheese</label><br>
+      <input type="radio" id="mc" name="color" value="mc">
+        <label for="mc">McChicken</label><br>
+      <input type="radio" id="fish" name="color" value="fish">
+        <label for="fish">Filet-O-Fish</label><br>
 
-      <label for="subscribe">
-        <input type="checkbox" id="subscribe" name="subscribe">
-    Subscribe to newsletter
+      <label>Fry size:</label>
+    <br>
+      <input type="radio" id="s" name="color" value="s">
+        <label for="s">small</label><br>
+      <input type="radio" id="med" name="color" value="med">
+        <label for="med">medium</label><br>
+      <input type="radio" id="l" name="color" value="l">
+        <label for="l">large</label><br>
+
+      <label>Choose a drink:</label>
+    <br>
+      <input type="radio" id="water" name="color" value="water">
+        <label for="water">water</label><br>
+      <input type="radio" id="sprite" name="color" value="sprite">
+        <label for="sprite">sprite</label><br>
+      <input type="radio" id="coke" name="color" value="coke">
+        <label for="coke">coke</label><br>
+
+      <label for="napkins">
+        <input type="checkbox" id="napkins" name="napkins">
+    Add napkins
       </label>
+    <br>
+      <label for="ketchup">
+        <input type="checkbox" id="ketchup" name="ketchup">
+    Add ketchup packets
+      </label>
+    <br>
+      <label for"message">Special Request (ex. toast bread, light mayo, etc):</label>
+        <textarea id="message" name="message"></textarea>
     <br>
       <button type="submit">Submit</button>
     </form>
